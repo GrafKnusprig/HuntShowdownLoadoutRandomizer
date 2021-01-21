@@ -40,4 +40,7 @@ https://github.com/GrafKnusprig/HuntShowdownLoadoutRandomizer
 If you feel like it, you can also drop by on twitch.
 https://www.twitch.tv/grafknusprig
 
+Watch the instruction video on YouTube:
+https://www.youtube.com/watch?v=yLbF4_L7gus
+
 Your GrafKnusprig.
