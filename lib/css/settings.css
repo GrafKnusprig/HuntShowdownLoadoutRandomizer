@@ -1,0 +1,243 @@
+#settingsDialog {
+	flex-direction: column;
+	font-family: Georgia;
+	color: #fff;
+	overflow: hidden;
+}
+
+.ui-dialog-titlebar {
+	display:none
+}
+
+.ui-widget-content {
+    border: none !important;
+	background-color: #161618;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	margin: 0;
+	padding: 0;
+}
+
+.itemGroup {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.itemGroup button {
+	margin: 0 0 0 5px;
+}
+
+.sliderGroup {
+	display: flex;
+}
+
+.sliderGroup input {
+	width: 200px;
+}
+
+.sliderValue, .sliderText {
+	font-size: 22px;
+	margin: 0 5px 0 0;
+}
+
+.sliderValue {
+	width: 50px;
+}
+
+#inventorySearch {
+  font-size: 22px;
+  border: 1px solid #ddd;
+  margin-bottom: 1px;
+  background-color: #ccc;
+  flex-grow: 5;
+}
+
+#inventory {
+	overflow-y: auto;
+	height: 380px;
+}
+
+.hidden {
+	display: none;
+}
+
+.listCheckbox {
+	margin: 5px;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #B50505;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#credits {
+	color: white;
+	left: 5px;
+	top: 40px;
+	font-size: 10px;
+	position: relative;
+	font-family: Georgia;
+	display: flex;
+	align-items: center;
+}
+
+#credits img {
+	margin-left: 3px;
+}
+
+/* From http://danielstern.ca/range.css/#/ */
+input[type=range] {
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  background: #cccccc;
+  border: 0;
+  border-radius: 0.7px;
+  width: 100%;
+  height: 5.8px;
+  cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+  margin-top: -8.1px;
+  width: 30px;
+  height: 22px;
+  background: #b50505;
+  border: 2.2px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #e3e3e3;
+}
+input[type=range]::-moz-range-track {
+  background: #cccccc;
+  border: 0;
+  border-radius: 0.7px;
+  width: 100%;
+  height: 5.8px;
+  cursor: pointer;
+}
+input[type=range]::-moz-range-thumb {
+  width: 30px;
+  height: 22px;
+  background: #b50505;
+  border: 2.2px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 8.1px 0;
+  color: transparent;
+  width: 100%;
+  height: 5.8px;
+  cursor: pointer;
+}
+input[type=range]::-ms-fill-lower {
+  background: #b5b5b5;
+  border: 0;
+  border-radius: 1.4px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #cccccc;
+  border: 0;
+  border-radius: 1.4px;
+}
+input[type=range]::-ms-thumb {
+  width: 30px;
+  height: 22px;
+  background: #b50505;
+  border: 2.2px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #cccccc;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #e3e3e3;
+}
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align:auto) {
+  /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+  input[type=range] {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}

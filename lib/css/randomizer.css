@@ -1,0 +1,126 @@
+body {
+	background-color: #161618;
+	font-family: Georgia;
+	margin: 0;
+	overflow: hidden;
+}
+.randomizer {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: transparent !important;
+}
+
+.slotwrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	color: #ffffff; 
+	background-color: transparent !important;
+	border: 0px solid !important;
+}
+
+.slotwrapper ul {
+	height: 200px;
+	width: 200px;
+	line-height: 24px !important;
+}
+
+.slotwrapper ul li {
+	height: 200px;
+}
+
+.slotwrapper ul li img {
+	vertical-align: inherit !important;
+	-webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0.7));
+}
+
+.img-title {
+	height: 40px;
+	font-size: 20px !important;
+	margin: 12px 0 0 0;
+}
+
+#primary,
+#secondary {
+	width: 350px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttons button
+{
+	margin: 16px 0 0 0;
+}
+
+button, .ui-widget button {
+	border-radius: 2px;
+	padding: 5px;
+	background-color: #B50505;
+	color: #ffffff;
+	font-family: Georgia;
+	border-color: transparent;
+	outline: none;
+	border: 0;
+}
+
+button:hover, .ui-widget button:hover {
+    background: #ccc;
+	color: #000;
+	outline: none;
+	border: 0;
+}
+
+button:active, .ui-widget button:active {
+	background: #330202;
+	outline: none;
+	border: 0;
+}
+
+.randomizer button {
+	font-size: 30px;
+	width: 55px;
+}
+
+.disabled {
+	opacity: 0.3;
+	disabled: true;
+}
+
+.stamp {
+	transform: rotate(12deg);
+	color: #B50505;
+	font-size: 30px;
+	font-weight: 700;
+	border: 5px solid #B50505;
+	border-radius: 0;
+	display: inline-block;
+	padding: 0.25rem 1rem;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-family: Georgia;
+	-webkit-mask-position: 13rem 6rem;
+	transform: rotate(-14deg);
+	position: absolute;
+	top: 520px;
+	left: 655px;
+}
+
+
+@-webkit-keyframes pulse{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity:.50;
+    transform-origin: 50% 50%;
+    transform: rotate(-2deg) scale(5);
+    transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  }
+  100%{
+    opacity:1;
+    transform: rotate(-15deg) scale(1);
+  }
+}
