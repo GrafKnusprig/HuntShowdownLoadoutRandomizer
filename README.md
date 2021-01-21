@@ -1,5 +1,5 @@
-# HuntShowdownLoadoutRandomizer v1.2
-## by GrafKnusprig
+# HuntShowdownLoadoutRandomizer
+v1.2
 
 <img src="images/screenshots/screenshot_main.jpg" width="200" height="150"/>
 <img src="images/screenshots/screenshot_settings.jpg" width="200" height="150"/>
@@ -8,9 +8,11 @@
 It is perfectly suited to be used as a browser plugin in OBS-Studio and similar applications and was made exactly for this purpose.
 
 ### Usage in OBS:
-Just add it as a 'Browser' source -> 'local' file to your scene in OBS. It has been designed to work with the default resolution for browser resources in OBS of 800px x 600px or larger. 
+1. Download all files and store them in a local folder on your PC. (Download as .zip and unpack)
+2. Add **Randomizer.html** as a **Browser** source with a local file to your scene in OBS.
+It has been designed to work with the default resolution for browser resources in OBS of 800px x 600px or larger. 
 
-To interact with the page in OBS, right-click on the 'Browser' source and select 'Interact'.
+To interact with the **Randomizer** in OBS, right-click on the **Browser** source and select *Interact*.
 
 As default, OBS includes a custom CSS in all browser sources which looks as follows:
 
@@ -33,7 +35,7 @@ You can remove this line if you don't want the background of the randomizer to b
 
 
 Have fun with the little program. If you find any bugs, please let me know on GitHub.
-https://github.com/GrafKnusprig
+https://github.com/GrafKnusprig/HuntShowdownLoadoutRandomizer
 
 If you feel like it, you can also drop by on twitch.
 https://www.twitch.tv/grafknusprig
