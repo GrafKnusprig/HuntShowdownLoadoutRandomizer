@@ -39,9 +39,19 @@ body {
 	margin: 12px 0 0 0;
 }
 
+.ammo-title {
+	height: 10px;
+	font-size: 12px !important;
+	margin: 12px 0 0 0;
+}
+
 #primary,
 #secondary {
 	width: 350px;
+}
+
+.ammo {
+	width: 100px !important;
 }
 
 .buttons {
