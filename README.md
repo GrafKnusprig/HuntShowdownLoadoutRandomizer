@@ -2,12 +2,26 @@
 
 ### v1.3 Custom Ammunition
 
+<p float="left">
+<img src="images/screenshots/update_1.5_official.jpg" width="200" height="150"/>
 <img src="images/screenshots/screenshot_main_v1.3.jpg" width="200" height="150"/>
+</p>
+
+With **Hunt: Showdown Patch 1.5** Custom Ammunition was introduced to the game.
+
+Single shot weapons and crossbows can use 2 ammo types at once.
+Weapons with a magazine can only use one type.
+There are different types for each weapon.
+
+The **HuntShowdownLoadoutRandomizer** now adds this feature to the loadout generator.
+Thus, in addition to the standard ammunition, you can also use the new ammunition types.
 
 ### v1.2 First Release
 
+<p float="left">
 <img src="images/screenshots/screenshot_main.jpg" width="200" height="150"/>
 <img src="images/screenshots/screenshot_settings.jpg" width="200" height="150"/>
+</p>
 
 **HuntShowdownLoadoutRandomizer** is a local browser application that generates random loadouts for the game Hunt: Showdown.
 It is perfectly suited to be used as a browser plugin in OBS-Studio and similar applications and was made exactly for this purpose.
@@ -23,7 +37,7 @@ As default, OBS includes a custom CSS in all browser sources which looks as foll
 
 ```body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }```
 
-You can remove this line if you don't want the background of the randomizer to be tranparent. Or add any other color, if you like.
+You can remove this line if you don't want the background of the randomizer to be transparent. Or add any other color, if you like.
 
 
 ### Using the Randomizer:
