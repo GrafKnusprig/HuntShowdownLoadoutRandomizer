@@ -1,5 +1,10 @@
 # HuntShowdownLoadoutRandomizer
-v1.2
+
+### v1.3 Custom Ammunition
+
+<img src="images/screenshots/screenshot_main_v1.3.jpg" width="200" height="150"/>
+
+### v1.2 First Release
 
 <img src="images/screenshots/screenshot_main.jpg" width="200" height="150"/>
 <img src="images/screenshots/screenshot_settings.jpg" width="200" height="150"/>
