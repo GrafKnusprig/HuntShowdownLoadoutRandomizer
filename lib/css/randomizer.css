@@ -34,30 +34,31 @@ body {
 }
 
 .img-title {
-	height: 40px;
 	font-size: 20px !important;
-	margin: 12px 0 0 0;
+	margin: 12px 0 5px 0;
 }
 
 .ammo-title {
-	height: 10px;
 	font-size: 12px !important;
-	margin: 12px 0 0 0;
+	margin: 12px 0 5px 5px;
+}
+
+.ammo, 
+.ammo img {
+	width: 80px;
 }
 
 #primary,
-#secondary {
-	width: 350px;
+#secondary img {
+	max-width: 200px;
 }
 
-.ammo {
-	width: 100px !important;
-}
 
 .buttons {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 80px;
 }
 
 .buttons button
