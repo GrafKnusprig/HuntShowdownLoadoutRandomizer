@@ -19,7 +19,8 @@ Thus, in addition to the standard ammunition, you can also use the new ammunitio
 <ins><b>Don't forget to clear your browser cache after updating! ;)</b></ins>
 
 #### Known issues:
-- The rank option is not working with custom ammo yet
+- The rank option is not working with custom ammo yet. (use rank 100)
+- The constellation of weapons can be wrong if less than 5 weapons are selected in the settings.
 
 ### v1.2 First Release
 
@@ -50,12 +51,9 @@ You can remove this line if you don't want the background of the randomizer to b
 - **Set** - in the settings menu you can make a selection about the items you want to generate. These can be filtered via the rank and the search line to ensure a quick search.
 - **Rank** - the filter setting for the rank. Filters the item list to all possible items you can have in this rank.
 - **Dual Chance** - this is the probability in percent that pistols will be equipped as dual weapons, if the loadout allows it.
-
-+ **Quartermaster** - sets whether you have the Quartermaster Trait.
-+ **First Aid Kit** - always includes a First Aid Kit in the tool selection.
-+ **Melee Weapon** - always includes a melee weapon in the tool selection.
-
-
+- **Quartermaster** - sets whether you have the Quartermaster Trait.
+- **First Aid Kit** - always includes a First Aid Kit in the tool selection.
+- **Melee Weapon** - always includes a melee weapon in the tool selection.
 
 
 Have fun with the little program. If you find any bugs, please let me know on GitHub.
