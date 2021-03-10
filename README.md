@@ -18,6 +18,8 @@ Thus, in addition to the standard ammunition, you can also use the new ammunitio
 
 <ins><b>Don't forget to clear your browser cache after updating! ;)</b></ins>
 
+#### Known issues:
+- The rank option is not working with custom ammo yet
 
 ### v1.2 First Release
 
