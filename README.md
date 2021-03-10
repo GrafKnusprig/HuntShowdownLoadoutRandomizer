@@ -16,9 +16,8 @@ There are different types for each weapon.
 The **HuntShowdownLoadoutRandomizer** now adds this feature to the loadout generator.
 Thus, in addition to the standard ammunition, you can also use the new ammunition types.
 
-```diff
-! Don'T forget to clear your browser cache after updating! ;)
-```
+<ins><b>Don't forget to clear your browser cache after updating! ;)</b></ins>
+
 
 ### v1.2 First Release
 
