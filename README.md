@@ -16,23 +16,9 @@ There are different types for each weapon.
 The **HuntShowdownLoadoutRandomizer** now adds this feature to the loadout generator.
 Thus, in addition to the standard ammunition, you can also use the new ammunition types.
 
-<svg>
-  <style>
-    .red
-	{
-		fill: red;
-		color: red;
-		font-size: 20px;
-		font-weight: bold;
-	}
-	.underline
-	{
-		text-decoration: underline;
-	}
-  </style>
-  <text class="red underline">Don't forget to clear your browser cache after updating!</text>
-  <text class="red"> ;)</text>
-</svg>
+```diff
+! Don'T forget to clear your browser cache after updating! ;)
+```
 
 ### v1.2 First Release
 
