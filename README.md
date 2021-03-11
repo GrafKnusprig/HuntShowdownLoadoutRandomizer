@@ -1,6 +1,6 @@
 # HuntShowdownLoadoutRandomizer
 
-<ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 😀</b></ins>
+<ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
 ---
 
