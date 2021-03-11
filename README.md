@@ -1,5 +1,7 @@
 # HuntShowdownLoadoutRandomizer
 
+<ins><b>Don't forget to clear your browser cache after updating! ;)</b></ins>
+
 ---
 
 ### v1.3.1 Patch
@@ -34,8 +36,6 @@ There are different types for each weapon.
 
 The **HuntShowdownLoadoutRandomizer** now adds this feature to the loadout generator.
 Thus, in addition to the standard ammunition, you can also use the new ammunition types.
-
-<ins><b>Don't forget to clear your browser cache after updating! ;)</b></ins>
 
 #### Known issues:
 - The rank option is not working with custom ammo yet. (use rank 100)
