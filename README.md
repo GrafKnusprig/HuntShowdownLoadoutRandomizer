@@ -1,5 +1,24 @@
 # HuntShowdownLoadoutRandomizer
 
+---
+
+### v1.3.1 Patch
+
+#### Fixed bugs:
+
+- Fixed a bug where the constellation of weapons could be wrong, if less than 5 weapons are selected in the settings.
+- Fixed a bug where second custom ammo of primary weapon was not shown.
+- Fixed a bug where custom ammo was only available at rank 100.
+- Fixed a bug with primary weapons styling.
+- Fixed a bug where an exception occured when meele weapon was forced but none was selected.
+- Fixed spelling for Caldwell Conversion Uppercut.
+
+#### Known issues:
+
+- none
+
+---
+
 ### v1.3 Custom Ammunition
 
 <p float="left">
@@ -21,6 +40,8 @@ Thus, in addition to the standard ammunition, you can also use the new ammunitio
 #### Known issues:
 - The rank option is not working with custom ammo yet. (use rank 100)
 - The constellation of weapons can be wrong if less than 5 weapons are selected in the settings.
+
+---
 
 ### v1.2 First Release
 
