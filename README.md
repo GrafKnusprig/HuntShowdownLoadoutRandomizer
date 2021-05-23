@@ -4,6 +4,16 @@
 
 ---
 
+### v1.3.2 Patch
+
+Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.5.2
+
+- Added Winfield Centennial Sniper
+- Added Uppercut Explosive Ammo
+- Added Pennyshot for Caldwell Rival variants and Specter variants
+- Added Slug for Terminus variants and Crown & King
+- Changed pricing for the Centennial and Slug Ammo
+
 ### v1.3.1 Patch
 
 #### Fixed bugs:
