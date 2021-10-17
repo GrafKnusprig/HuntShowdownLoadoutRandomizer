@@ -13,7 +13,7 @@
 
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.6.2
 
-- Added Vetterli 77 Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" max-height="30"/>
+- Added Vetterli 77 Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" height="30"/>
 - Added Vetterli 77 Marksman
 - Added Vetterli 77 High Velocity
 - Added Scottfield Model 3 Revolver and ammo variants
