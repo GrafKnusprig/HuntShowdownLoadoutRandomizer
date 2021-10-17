@@ -6,19 +6,14 @@
 
 ### v1.3.3 Patch
 
-<p float="left">
-<img src="images/items/Hunting_Bow.webp" width="200" height="150"/>
-<img src="images/items/Throwing_Axes.webp" width="200" height="150"/>
-</p>
-
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.6.2
 
-- Added Vetterli 77 Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" height="30"/>
-- Added Vetterli 77 Marksman
-- Added Vetterli 77 High Velocity
-- Added Scottfield Model 3 Revolver and ammo variants
-- Added Hunting Bow and ammo variants
-- Added Throwing Axes
+- Added Vetterli 77 Karabiner Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" height="25"/>
+- Added Vetterli 77 Karabiner Marksman <img src="images/items/Vetterli_71_Karabiner_Marksman.webp" height="25"/>
+- Added Vetterli 77 Karabiner High Velocity <img src="images/items/Vetterli_71_Karabiner_High_Velocity.webp" height="25"/>
+- Added Scottfield Model 3 Revolver and ammo variants <img src="images/items/Scottfield_Model_3_Revolver.webp" height="25"/>
+- Added Hunting Bow and ammo variants <img src="images/items/Hunting_Bow.webp" height="25"/>
+- Added Throwing Axes <img src="images/items/Throwing_Axes.webp" height="25"/>
 
 - Shotgun ammo changes
 
