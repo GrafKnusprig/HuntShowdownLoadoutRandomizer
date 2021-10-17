@@ -4,6 +4,23 @@
 
 ---
 
+### v1.3.3 Patch
+
+Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.6.2
+
+- Added Vetterli 77 Silencer
+- Added Vetterli 77 Marksman
+- Added Vetterli 77 High Velocity
+- Added Scottfield Model 3 Revolver and ammo variants
+- Added Hunting Bow and ammo variants
+- Added Throwing Axes
+
+- Shotgun ammo changes
+
+- Every ammo can now be selected sepereately in the settings
+    - Winfield 1873 / Winfield 1873C / Shotguns / Nagant M1895 / Nagant M1895 Officer / ...
+- Renamed weapons and ammo to match their names in game
+
 ### v1.3.2 Patch
 
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.5.2
