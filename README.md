@@ -11,7 +11,7 @@ Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown
 - Added Vetterli 77 Karabiner Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" height="25"/>
 - Added Vetterli 77 Karabiner Marksman <img src="images/items/Vetterli_71_Karabiner_Marksman.webp" height="25"/>
 - Added Vetterli 77 Karabiner High Velocity <img src="images/items/Vetterli_71_Karabiner_High_Velocity.webp" height="25"/>
-- Added Scottfield Model 3 Revolver and ammo variants <img src="images/items/Scottfield_Model_3_Revolver.webp" height="25"/>
+- Added Scottfield Model 3 and ammo variants <img src="images/items/Scottfield_Model_3.webp" height="25"/>
 - Added Hunting Bow and ammo variants <img src="images/items/Hunting_Bow.webp" height="25"/>
 - Added Throwing Axes <img src="images/items/Throwing_Axes.webp" height="25"/>
 
