@@ -6,6 +6,8 @@
 
 ### v1.3.3 Patch
 
+<img src="images/screenshots/update_1.6.2_official.jpg" width="200" height="150"/>
+
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.6.2
 
 - Added Vetterli 77 Karabiner Silencer <img src="images/items/Vetterli_71_Karabiner_Silencer.webp" height="25"/>
