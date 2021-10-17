@@ -17,9 +17,7 @@ Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown
 - Added Hunting Bow and ammo variants <img src="images/items/Hunting_Bow.webp" height="25"/>
 - Added Throwing Axes <img src="images/items/Throwing_Axes.webp" height="25"/>
 - Added Lebel 1886 Aperture <img src="images/items/Lebel_1886_Aperture.webp" height="25"/>
-
 - Shotgun ammo changes
-
 - Every ammo can now be selected sepereately in the settings
     - Winfield 1873 / Winfield 1873C / Shotguns / Nagant M1895 / Nagant M1895 Officer / ...
 - Renamed weapons and ammo to match their names in game
