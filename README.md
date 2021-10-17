@@ -14,6 +14,7 @@ Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown
 - Added Scottfield Model 3 and ammo variants <img src="images/items/Scottfield_Model_3.webp" height="25"/>
 - Added Hunting Bow and ammo variants <img src="images/items/Hunting_Bow.webp" height="25"/>
 - Added Throwing Axes <img src="images/items/Throwing_Axes.webp" height="25"/>
+- Added Lebel 1886 Aperture <img src="images/items/Lebel_1886_Aperture.webp" height="25"/>
 
 - Shotgun ammo changes
 
