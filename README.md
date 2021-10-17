@@ -6,6 +6,11 @@
 
 ### v1.3.3 Patch
 
+<p float="left">
+<img src="images/items/Hunting_Bow.webp" width="200" height="150"/>
+<img src="images/items/Throwing_Axes.webp" width="200" height="150"/>
+</p>
+
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.6.2
 
 - Added Vetterli 77 Silencer
