@@ -22,6 +22,8 @@ Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown
     - Winfield 1873 / Winfield 1873C / Shotguns / Nagant M1895 / Nagant M1895 Officer / ...
 - Renamed weapons and ammo to match their names in game
 
+---
+
 ### v1.3.2 Patch
 
 Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown Patch 1.5.2
@@ -31,6 +33,8 @@ Added pricing changes, new ammunition and weapons, that came with Hunt: Showdown
 - Added Pennyshot for Caldwell Rival variants and Specter variants
 - Added Slug for Terminus variants and Crown & King
 - Changed pricing for the Centennial and Slug Ammo
+
+---
 
 ### v1.3.1 Patch
 
@@ -81,7 +85,9 @@ Thus, in addition to the standard ammunition, you can also use the new ammunitio
 **HuntShowdownLoadoutRandomizer** is a local browser application that generates random loadouts for the game Hunt: Showdown.
 It is perfectly suited to be used as a browser plugin in OBS-Studio and similar applications and was made exactly for this purpose.
 
-### Usage in OBS:
+---
+
+## Usage in OBS:
 1. Download all files and store them in a local folder on your PC. (Download as .zip and unpack)
 2. Add **Randomizer.html** as a **Browser** source with a local file to your scene in OBS.
 It has been designed to work with the default resolution for browser resources in OBS of 800px x 600px or larger. 
@@ -95,7 +101,7 @@ As default, OBS includes a custom CSS in all browser sources which looks as foll
 You can remove this line if you don't want the background of the randomizer to be transparent. Or add any other color, if you like.
 
 
-### Using the Randomizer:
+## Using the Randomizer:
 - **Go** - generates a random loadout based on the settings made.
 - **Set** - in the settings menu you can make a selection about the items you want to generate. These can be filtered via the rank and the search line to ensure a quick search.
 - **Rank** - the filter setting for the rank. Filters the item list to all possible items you can have in this rank.
@@ -104,6 +110,7 @@ You can remove this line if you don't want the background of the randomizer to b
 - **First Aid Kit** - always includes a First Aid Kit in the tool selection.
 - **Melee Weapon** - always includes a melee weapon in the tool selection.
 
+---
 
 Have fun with the little program. If you find any bugs, please let me know on GitHub.
 https://github.com/GrafKnusprig/HuntShowdownLoadoutRandomizer
