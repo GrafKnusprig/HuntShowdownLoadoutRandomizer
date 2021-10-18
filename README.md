@@ -1,10 +1,10 @@
 # HuntShowdownLoadoutRandomizer
 
-<ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
-
-<img src="images/icons/new.png" height="28" margin-bottom="10px"/>Try it out on GitHub Pages:
+<img src="images/icons/new.png" height="28"/>**Try it out online:**
 
 https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
+
+<ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
 ---
 
