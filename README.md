@@ -2,6 +2,8 @@
 
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
+<img src="images/icons/new.png" height="28"/>Try it out on GitHub Pages: https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
+
 ---
 
 ### v1.3.3 Patch
