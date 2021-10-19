@@ -8,6 +8,24 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
+### v1.4.0 Update
+
+#### New Option **Price Limit**
+
+<img src="images/screenshots/price_limit.png" width="200" height="150"/>
+
+Set a limit on how much hunt dollars you want to spend for your loadout.
+The randomizer tries not to hit the price as much as possible, but to stay below it.
+
+The pricetag is green if the loadout lands more than 10% below the limit, yellow if it's in the 10% and
+red if it couldn't keep the limit.
+
+#### Roadmap:
+
+- Adding an option to avoid multiple melee tools
+
+---
+
 ### v1.3.3 Patch
 
 <img src="images/screenshots/update_1.6.2_official.jpg" width="200" height="150"/>
