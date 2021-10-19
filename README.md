@@ -13,7 +13,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 #### New Option **Price Limit**
 
-<img src="images/screenshots/price_limit.png" width="200" height="150"/>
+<img src="images/screenshots/price_limit.png" height="150"/>
 
 Set a limit on how much hunt dollars you want to spend for your loadout.
 The randomizer tries not to hit the price as much as possible, but to stay below it.
