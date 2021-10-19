@@ -8,7 +8,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
-### v1.4.0 Update
+### v1.4.0 Price Limit
 *2021/10/19*
 
 #### New Option **Price Limit**
