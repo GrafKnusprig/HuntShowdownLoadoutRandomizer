@@ -2,83 +2,95 @@
 <!-- by GrafKnusprig -->
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8"/>
-		<title>Hunt Weapon Randomizer</title>
-		<link rel="stylesheet" href="lib/css/slotmachine.css">
-		<link rel="stylesheet" href="lib/css/jquery-ui.min.css">
-		<link rel="stylesheet" href="lib/css/randomizer.css">
-		<link rel="stylesheet" href="lib/css/settings.css">
-		<script type="text/javascript" src="lib/js/jquery_3.5.1.min.js"></script>
-		<script type="text/javascript" src="lib/js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="lib/js/slotmachine.js"></script>
-		<script type="text/javascript" src="lib/js/defaultConfig.js"></script>
-		<script type="text/javascript" src="lib/js/settings.js"></script>
-		<script type="text/javascript" src="lib/js/hunt_data.js"></script>
-		<script type="text/javascript" src="lib/js/randomizer.js"></script>
-	</head>
-	
-	<body>
-		<div class="randomizer">
-			<div id="weapons" class="slotwrapper">
-				<ul id="primary"></ul>
-				<ul id="primaryAmmo1" class="ammo"></ul>
-				<ul id="primaryAmmo2" class="ammo"></ul>
-				<ul id="secondary"></ul>
-				<ul id="secondaryAmmo1" class="ammo"></ul>
-				<ul id="secondaryAmmo2" class="ammo"></ul>
-				<div class="buttons">
-					<button id="btnGo" onclick="randomize()">Go</button><br/>
-					<button onclick="openSettingsDialog()">Set</button>
-				</div>
-			</div>
-			<div id="tools" class="slotwrapper">
-				<ul id="tool1"></ul>
-				<ul id="tool2"></ul>
-				<ul id="tool3"></ul>
-				<ul id="tool4"></ul>
-			</div>
-			<div id="consumables" class="slotwrapper">
-				<ul id="cons1"></ul>
-				<ul id="cons2"></ul>
-				<ul id="cons3"></ul>
-				<ul id="cons4"></ul>
-			</div>
-			<span id="totalCost" class="stamp"></span>
-		</div>
-		
-		<div class="hidden" id="settingsDialog">
-			
+    <head>
+        <meta charset="utf-8" />
+        <title>Hunt Weapon Randomizer</title>
+        <link rel="stylesheet" href="lib/css/slotmachine.css" />
+        <link rel="stylesheet" href="lib/css/jquery-ui.min.css" />
+        <link rel="stylesheet" href="lib/css/randomizer.css" />
+        <link rel="stylesheet" href="lib/css/settings.css" />
+        <script type="text/javascript" src="lib/js/jquery_3.5.1.min.js"></script>
+        <script type="text/javascript" src="lib/js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="lib/js/slotmachine.js"></script>
+        <script type="text/javascript" src="lib/js/defaultConfig.js"></script>
+        <script type="text/javascript" src="lib/js/settings.js"></script>
+        <script type="text/javascript" src="lib/js/hunt_data.js"></script>
+        <script type="text/javascript" src="lib/js/randomizer.js"></script>
+    </head>
 
-			<div class="itemGroup">
-				<div class="sliderGroup">
-					<span class="sliderText">Rank</span>
-					<input id="rank" type="range" min="1" max="100" oninput="setRank()">
-					<span class="sliderValue" id="rankValue"></span>
-				</div>
-				<div class="sliderGroup">
-					<span class="sliderText">Dual Chance</span>
-					<input id="dualChance" type="range" min="0" max="100" oninput="setDualChance()">
-					<span class="sliderValue" id="dualChanceValue"></span>
-				</div>		
-			</div>
-			
-			<div class="itemGroup">
-				<label class="container">Quartermaster<input id="quartermaster" type="checkbox"><span class="checkmark"></span></label>
-				<label class="container">First Aid Kit<input id="firstAidKit" type="checkbox"><span class="checkmark"></span></label>
-				<label class="container">Melee Weapon<input id="melee" type="checkbox"><span class="checkmark"></span></label>
-			</div>			
-			<div class="itemGroup">
-				<input type="text" id="inventorySearch" onkeyup="searchList()" placeholder="Search for names...">
-				<button onclick="selectAll(true)">☑</button>
-				<button onclick="selectAll(false)">☐</button>
-			</div>
-			<div id="inventory"></div>
-		<div>
-		
-		<script>
-			loadConfig();
-			randomize();
-		</script>
-	</body>
-</html> 
+    <body>
+        <div class="randomizer">
+            <div id="weapons" class="slotwrapper">
+                <ul id="primary"></ul>
+                <ul id="primaryAmmo1" class="ammo"></ul>
+                <ul id="primaryAmmo2" class="ammo"></ul>
+                <ul id="secondary"></ul>
+                <ul id="secondaryAmmo1" class="ammo"></ul>
+                <ul id="secondaryAmmo2" class="ammo"></ul>
+                <div class="buttons">
+                    <button id="btnGo" onclick="randomize()">Go</button><br />
+                    <button onclick="openSettingsDialog()">Set</button>
+                </div>
+            </div>
+            <div id="tools" class="slotwrapper">
+                <ul id="tool1"></ul>
+                <ul id="tool2"></ul>
+                <ul id="tool3"></ul>
+                <ul id="tool4"></ul>
+            </div>
+            <div id="consumables" class="slotwrapper">
+                <ul id="cons1"></ul>
+                <ul id="cons2"></ul>
+                <ul id="cons3"></ul>
+                <ul id="cons4"></ul>
+            </div>
+            <span id="totalCost" class="stamp"></span>
+        </div>
+
+        <!-- Settings Dialog -->
+
+        <!-- Slider -->
+        <div class="hidden" id="settingsDialog">
+            <div class="itemGroup">
+                <div class="sliderGroup">
+                    <span class="sliderText">Rank</span>
+                    <input id="rank" type="range" min="1" max="100" oninput="setRank()" />
+                    <span class="sliderValue" id="rankValue"></span>
+                </div>
+                <div class="sliderGroup">
+                    <span class="sliderText">Dual Chance</span>
+                    <input id="dualChance" type="range" min="0" max="100" oninput="setDualChance()" />
+                    <span class="sliderValue" id="dualChanceValue"></span>
+                </div>
+            </div>
+
+            <!-- Cost Settings -->
+            <div class="itemGroup">
+                <div class="sliderGroup">
+                    <span class="sliderText">Price</span>
+                    <input id="priceLimit" type="range" min="200" max="2000" oninput="setPriceLimit()" />
+                    <span class="sliderValue" id="priceLimitValue"></span>
+                </div>
+            </div>
+
+            <!-- Checkbox Area -->
+            <div class="itemGroup">
+                <label class="container">Quartermaster<input id="quartermaster" type="checkbox" /><span class="checkmark"></span></label>
+                <label class="container">First Aid Kit<input id="firstAidKit" type="checkbox" /><span class="checkmark"></span></label>
+                <label class="container">Melee Weapon<input id="melee" type="checkbox" /><span class="checkmark"></span></label>
+            </div>
+
+            <!-- Inventory -->
+            <div class="itemGroup">
+                <input type="text" id="inventorySearch" onkeyup="searchList()" placeholder="Search for names..." />
+                <button onclick="selectAll(true)">☑</button>
+                <button onclick="selectAll(false)">☐</button>
+            </div>
+            <div id="inventory"></div>
+        </div>
+        <script>
+            loadConfig();
+            randomize();
+        </script>
+    </body>
+</html>
