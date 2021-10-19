@@ -9,6 +9,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 ---
 
 ### v1.4.0 Update
+*2021/10/19*
 
 #### New Option **Price Limit**
 
@@ -27,6 +28,7 @@ red if it couldn't keep the limit.
 ---
 
 ### v1.3.3 Patch
+*2021/10/17*
 
 <img src="images/screenshots/update_1.6.2_official.jpg" width="200" height="150"/>
 
