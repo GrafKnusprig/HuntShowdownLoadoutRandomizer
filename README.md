@@ -25,6 +25,10 @@ red if it couldn't keep the limit.
 
 - Adding an option to avoid multiple melee tools
 
+#### Known issues:
+
+- Regeneration Shot missing
+
 ---
 
 ### v1.3.3 Patch
