@@ -24,10 +24,6 @@ Keep in mind this logic only affects tools.
 - Fixed naming of mines
 - Fixed unlock rank of some consumables
 
-#### Roadmap:
-
-- Adding an option to avoid multiple melee tools
-
 ---
 
 ### v1.4.0 Price Limit
