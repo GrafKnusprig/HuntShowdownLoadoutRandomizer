@@ -8,7 +8,17 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
-### v1.4.1 Fixes
+### v1.5.0 Intelligent Melee Weapons
+*2021/10/20*
+
+#### Reworked Option **Melee Weapon**
+
+The option **Melee Weapon** now has a logic to avoid taking multiple melee weapons that deal the same kind of melee damage.
+For example if your primary is the Martini Henry Riposte, your melee weapon cannot be a knife or a heavy knife.
+It also makes sure, that you only carry one melee weapon. No more multiple knives!
+Keep in mind this logic only affects tools.
+
+#### Fixes:
 
 - Added Regeneration Shots
 - Fixed naming of mines
@@ -17,10 +27,6 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 #### Roadmap:
 
 - Adding an option to avoid multiple melee tools
-
-#### Known issues:
-
-- None
 
 ---
 
