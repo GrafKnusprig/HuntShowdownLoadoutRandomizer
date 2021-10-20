@@ -8,6 +8,22 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
+### v1.4.1 Fixes
+
+- Added Regeneration Shots
+- Fixed naming of mines
+- Fixed unlock rank of some consumables
+
+#### Roadmap:
+
+- Adding an option to avoid multiple melee tools
+
+#### Known issues:
+
+- None
+
+---
+
 ### v1.4.0 Price Limit
 *2021/10/19*
 
