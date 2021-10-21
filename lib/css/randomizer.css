@@ -109,15 +109,14 @@ button:active,
     border: 5px solid #b50505;
     border-radius: 0;
     display: inline-block;
-    padding: 0.25rem 1rem;
+    padding: 0.2rem 0.5rem;
     text-transform: uppercase;
     border-radius: 2px;
-    font-family: Georgia;
-    -webkit-mask-position: 13rem 6rem;
+    font-family: 'Times New Roman', Times, serif;
     transform: rotate(-14deg);
     position: absolute;
     top: 520px;
-    left: 655px;
+    left: 670px;
 }
 
 @-webkit-keyframes pulse {

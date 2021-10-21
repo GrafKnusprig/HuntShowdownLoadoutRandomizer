@@ -1,4 +1,4 @@
-<!-- HuntShowdownLoadoutRandomizer v1.5.0 -->
+<!-- HuntShowdownLoadoutRandomizer v1.5.1 -->
 <!-- by GrafKnusprig -->
 <!DOCTYPE html>
 <html>
@@ -52,36 +52,32 @@
         <!-- Slider -->
         <div class="hidden" id="settingsDialog">
             <div class="itemGroup">
-                <!-- Rank Settings -->
-                <div class="sliderGroup">
-                    <span class="sliderText">Rank</span>
-                    <input id="rank" type="range" min="1" max="100" oninput="setRank()" />
-                    <span class="sliderValue" id="rankValue"></span>
+                <div class="itemGroupVertical">
+                    <!-- Rank Settings -->
+                    <div class="sliderGroup">
+                        <span class="sliderText">Rank</span>
+                        <input id="rank" type="range" min="1" max="100" oninput="setRank()" />
+                        <span class="sliderValue" id="rankValue"></span>
+                    </div>
+                    <!-- Dual Settings -->
+                    <div class="sliderGroup">
+                        <span class="sliderText">Dual Chance</span>
+                        <input id="dualChance" type="range" min="0" max="100" oninput="setDualChance()" />
+                        <span class="sliderValue" id="dualChanceValue"></span>
+                    </div>
+                    <!-- Cost Settings -->
+                    <div class="sliderGroup">
+                        <span class="sliderText">Price Limit</span>
+                        <input id="priceLimit" type="range" min="200" max="2000" oninput="setPriceLimit()" />
+                        <span class="sliderValue" id="priceLimitValue"></span>
+                    </div>
                 </div>
-                <!-- Dual Settings -->
-                <div class="sliderGroup">
-                    <span class="sliderText">Dual Chance</span>
-                    <input id="dualChance" type="range" min="0" max="100" oninput="setDualChance()" />
-                    <span class="sliderValue" id="dualChanceValue"></span>
+                <div class="itemGroupVertical">
+                    <label class="container">Quartermaster<input id="quartermaster" type="checkbox" /><span class="checkmark"></span></label>
+                    <label class="container">First Aid Kit<input id="firstAidKit" type="checkbox" /><span class="checkmark"></span></label>
+                    <label class="container">Melee Tool<input id="melee" type="checkbox" /><span class="checkmark"></span></label>
                 </div>
             </div>
-
-            <!-- Cost Settings -->
-            <div class="itemGroup">
-                <div class="sliderGroup">
-                    <span class="sliderText">Price</span>
-                    <input id="priceLimit" type="range" min="200" max="2000" oninput="setPriceLimit()" />
-                    <span class="sliderValue" id="priceLimitValue"></span>
-                </div>
-            </div>
-
-            <!-- Checkbox Area -->
-            <div class="itemGroup">
-                <label class="container">Quartermaster<input id="quartermaster" type="checkbox" /><span class="checkmark"></span></label>
-                <label class="container">First Aid Kit<input id="firstAidKit" type="checkbox" /><span class="checkmark"></span></label>
-                <label class="container">Melee Tool<input id="melee" type="checkbox" /><span class="checkmark"></span></label>
-            </div>
-
             <!-- Inventory -->
             <div class="itemGroup">
                 <input type="text" id="inventorySearch" onkeyup="searchList()" placeholder="Search for names..." />

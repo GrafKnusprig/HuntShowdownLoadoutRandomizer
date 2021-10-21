@@ -8,6 +8,13 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
+### v1.5.1 Layout Changes
+*2021/10/21*
+
+- Changed layout of the settings dialog for an overall better look
+
+---
+
 ### v1.5.0 Intelligent Melee Tools
 *2021/10/20*
 
@@ -152,7 +159,7 @@ You can remove this line if you don't want the background of the randomizer to b
 - **Set** - in the settings menu you can make a selection about the items you want to generate. These can be filtered via the rank and the search line to ensure a quick search.
 - **Rank** - the filter setting for the rank. Filters the item list to all possible items you can have in this rank.
 - **Dual Chance** - this is the probability in percent that pistols will be equipped as dual weapons, if the loadout allows it.
-- **Price** - this is the price limit you can set for your loadout.
+- **Price Limit** - this is the price limit you can set for your loadout.
 - **Quartermaster** - sets whether you have the Quartermaster Trait.
 - **First Aid Kit** - always includes a First Aid Kit in the tool selection.
 - **Melee Tool** - always includes a melee weapon in the tool selection, which fits the loadout.
