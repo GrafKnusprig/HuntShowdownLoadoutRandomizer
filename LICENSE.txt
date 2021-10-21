@@ -1,4 +1,4 @@
-HuntShowdownLoadoutRandomizer v1.5.1
+HuntShowdownLoadoutRandomizer v1.5.2
 by GrafKnusprig
 
 This project is licensed under CC BY-NC-SA 4.0

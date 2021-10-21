@@ -8,6 +8,20 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 ---
 
+### v1.5.2 Fixes & Melee Changes (Smart Melee)
+*2021/10/21*
+
+- Updated to Hunt 1.6.2.1
+    - Checked and updated all weapon ranks
+- Fixed an issue where below rank 20 multiple knives could occur while the melee setting was set
+- Renamed option Melee Tool to **Smart Melee**:
+    - If the weapons cover all melee types, no melee tool is taken
+    - A random tool is chosen instead
+- Changed title to: *HUNT Randomizer*
+- Added icon to page
+
+---
+
 ### v1.5.1 Layout Changes
 *2021/10/21*
 
@@ -129,6 +143,7 @@ Thus, in addition to the standard ammunition, you can also use the new ammunitio
 ---
 
 ### v1.2 First Release
+*2021/01/22*
 
 <p float="left">
 <img src="images/screenshots/screenshot_main.jpg" width="200" height="150"/>
@@ -161,8 +176,8 @@ You can remove this line if you don't want the background of the randomizer to b
 - **Dual Chance** - this is the probability in percent that pistols will be equipped as dual weapons, if the loadout allows it.
 - **Price Limit** - this is the price limit you can set for your loadout.
 - **Quartermaster** - sets whether you have the Quartermaster Trait.
-- **First Aid Kit** - always includes a First Aid Kit in the tool selection.
-- **Melee Tool** - always includes a melee weapon in the tool selection, which fits the loadout.
+- **First Aid Kit** - always includes a First Aid Kit in the tool selection. If First Aid Kit is unselected, a random tool is taken.
+- **Smart Melee** - always choose a melee tool, which fits the loadout. If the weapons cover all melee types, no melee tool is taken. A random tool is chosen instead.
 
 ---
 
