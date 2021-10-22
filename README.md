@@ -9,7 +9,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 ---
 
 ### v1.5.2 Fixes & Melee Changes (Smart Melee)
-*2021/10/21*
+*2021/10/22*
 
 - Updated to Hunt 1.6.2.1
     - Checked and updated all weapon ranks
@@ -19,6 +19,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
     - A random tool is chosen instead
 - Changed title to: *HUNT Randomizer*
 - Added icon to page
+- Hunting Bow ammo types fix
 
 ---
 
