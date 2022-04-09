@@ -6,6 +6,27 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
+### v.1.5.3 Fixes & New Weapons
+*2022/04/09*
+
+- Update to Hunt 1.8.0.4
+- Added all new and missing Weapons
+    - Added Berthier Mle  <img src="images/items/Berthier_Mle_1892.webp" height="25"/>
+    - Added Berthier Mle Deadeye <img src="images/items/Berthier_Mle_1892_Deadeye.webp" height="25"/>
+    - Added Bertheir Mle Riposte <img src="images/items/Berthier_Mle_1892_Riposte.webp" height="25"/>
+    - Added Caldwell 92 New Army <img src="images/items/Caldwell_92_New_Army.webp" height="25"/>
+    - Added Scottfield Model 3 Brawler <img src="images/items/Scottfield_Model_3_Brawler.webp" height="25"/>
+    - Added Scottfield Model 3 Precision <img src="images/items/Scottfield_Model_3_Precision.webp" height="25"/>
+    - Added Scottfield Model 3 Spitfire <img src="images/items/Scottfield_Model_3_Spitfire.webp" height="25"/>
+    - Added Scottfield Model 3 Swift <img src="images/items/Scottfield_Model_3_Swift.webp" height="25"/>
+ 
+- Fixed Scottfield: can now be dual wielded.
+
+#### Todo:
+
+- Add rank for Winfield Slate once it is known. (When they are added after the event.)
+- Set right unlock chain for Caldwell Army, Berthier and Scottfield variants once it is known.
+
 ---
 
 ### v1.5.2 Fixes & Melee Changes (Smart Melee)
