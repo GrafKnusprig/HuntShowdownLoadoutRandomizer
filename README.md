@@ -19,6 +19,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
     - Added Scottfield Model 3 Precision <img src="images/items/Scottfield_Model_3_Precision.webp" height="25"/>
     - Added Scottfield Model 3 Spitfire <img src="images/items/Scottfield_Model_3_Spitfire.webp" height="25"/>
     - Added Scottfield Model 3 Swift <img src="images/items/Scottfield_Model_3_Swift.webp" height="25"/>
+    - Added Winfield FMJ <img src="images/items/Winfield_M1873_FMJ.webp" height="25"/>
  
 - Fixed Scottfield: can now be dual wielded.
 
