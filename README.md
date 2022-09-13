@@ -6,7 +6,21 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
-### v.1.5.3 Fixes & New Weapons
+### v1.5.4 Fixes & New Weapons
+*2022/09/13*
+
+- Update to Hunt 1.9
+- Added all new and missing Weapons
+    - Added Sparks Pistol  <img src="images/items/Sparks_Pistol.webp" height="25"/>
+    - Added Romero Alamo <img src="images/items/Romero_Alamo.webp" height="25"/>
+
+#### Todo:
+
+- Set right unlock chain for Sparks Pistol and Romero Alamo once it's added.
+
+---
+
+### v1.5.3 Fixes & New Weapons
 *2022/04/09*
 
 - Update to Hunt 1.8.0.4
