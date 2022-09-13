@@ -12,7 +12,7 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 - Update to Hunt 1.9
 - Added all new and missing Weapons
     - Added Sparks Pistol  <img src="images/items/Sparks_Pistol.webp" height="25"/>
-    - Added Romero Alamo <img src="images/items/Romero_Alamo.webp" height="25"/>
+    - Added Romero Alamo <img src="images/items/Romero_77_Alamo.webp" height="25"/>
 
 #### Todo:
 
