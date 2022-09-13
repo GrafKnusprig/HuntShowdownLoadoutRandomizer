@@ -1,4 +1,5 @@
 # HuntShowdownLoadoutRandomizer
+<img src="images/banner/hunt-showdown-loadout-randomizer.webp" height="150"/>
 
 <img src="images/icons/new.png" height="28"/>**Try it out online:**
 
