@@ -18,6 +18,12 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
     - **blunt / sharp** *filter melee damage kind*
     - **melee** *filter melee tools*
 
+#### Todo:
+
+- Set right unlock chain for Sparks Pistol and Romero Alamo once it's added.
+- Add ammo types to search filter
+- Add responsive mobile frontend
+
 ### v1.5.4 Fixes & New Weapons
 *2022/09/13*
 
