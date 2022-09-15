@@ -55,35 +55,35 @@
             <div class="itemGroup">
                 <div class="itemGroupVertical">
                     <!-- Rank Settings -->
-                    <div class="sliderGroup">
+                    <div class="sliderGroup" title="Filter list based on blood rank.">
                         <span class="sliderText">Rank</span>
                         <input id="rank" type="range" min="1" max="100" oninput="setRank()" />
                         <span class="sliderValue" id="rankValue"></span>
                     </div>
                     <!-- Dual Settings -->
-                    <div class="sliderGroup">
+                    <div class="sliderGroup" title="Chance for dual wield, if it's a random pistol loadout. Does not necessarily lead to dual wield.">
                         <span class="sliderText">Dual Chance</span>
                         <input id="dualChance" type="range" min="0" max="100" oninput="setDualChance()" />
                         <span class="sliderValue" id="dualChanceValue"></span>
                     </div>
                     <!-- Cost Settings -->
-                    <div class="sliderGroup">
+                    <div class="sliderGroup" title="Approximate price target. Can be undershot and overshot.">
                         <span class="sliderText">Price Limit</span>
                         <input id="priceLimit" type="range" min="200" max="2000" oninput="setPriceLimit()" />
                         <span class="sliderValue" id="priceLimitValue"></span>
                     </div>
                 </div>
                 <div class="itemGroupVertical">
-                    <label class="container">Quartermaster<input id="quartermaster" type="checkbox" /><span class="checkmark"></span></label>
-                    <label class="container">First Aid Kit<input id="firstAidKit" type="checkbox" /><span class="checkmark"></span></label>
-                    <label class="container">Smart Melee<input id="melee" type="checkbox" /><span class="checkmark"></span></label>
+                    <label class="container" title="Randomly choose a quartermaster loadout.">Quartermaster<input id="quartermaster" type="checkbox" /><span class="checkmark"></span></label>
+                    <label class="container" title="Always take a first aid kit.">First Aid Kit<input id="firstAidKit" type="checkbox" /><span class="checkmark"></span></label>
+                    <label class="container" title="Choose a melee tool, which fits the loadout. Considers blunt and sharp damage.">Smart Melee<input id="melee" type="checkbox" /><span class="checkmark"></span></label>
                 </div>
             </div>
             <!-- Inventory -->
             <div class="itemGroup">
-                <input type="text" id="inventorySearch" onkeyup="searchList()" placeholder="Search for names..." />
-                <button onclick="selectAll(true)">☑</button>
-                <button onclick="selectAll(false)">☐</button>
+                <input type="text" id="inventorySearch" title="Use special keywords like: special, ammo, small, medium, large, tool, consumable, dual, sharp, blunt" onkeyup="searchList()" placeholder="Search for names..." />
+                <button onclick="selectAll(true)" title="Check all.">☑</button>
+                <button onclick="selectAll(false)" title="Uncheck all.">☐</button>
             </div>
             <div id="inventory"></div>
         </div>

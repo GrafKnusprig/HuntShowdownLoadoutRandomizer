@@ -7,6 +7,17 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
+### v1.5.5 Quality of life improvements
+*2022/09/15*
+- Added help texts in the settings menu
+- Added new search keywords:
+    - **special / ammo** *filter ammo only*
+    - **small / medium / large** *filter weapon type*
+    - **tool / consumable** *filter for tools or consumables*
+    - **dual** *filter dual wield weapons*
+    - **blunt / sharp** *filter melee damage kind*
+    - **melee** *filter melee tools*
+
 ### v1.5.4 Fixes & New Weapons
 *2022/09/13*
 
