@@ -7,6 +7,17 @@ https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
 
+### v1.5.6 Update to Hunt 1.10
+*2022/10/22*
+- Added new consumable:
+    - Added Stalker Beetle <img src="images/items/Stalker_Beetle.webp" height="25"/>
+- Updated all unlock rank and price changes
+    - For more details see: https://updatecrazy.com/hunt-showdown-update-1-10-patch-notes-release-date/
+
+#### Todo:
+
+- Add responsive mobile frontend
+
 ### v1.5.5 Quality of life improvements
 *2022/09/15*
 - Added help texts in the settings menu
