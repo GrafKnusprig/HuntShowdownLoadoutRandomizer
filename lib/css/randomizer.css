@@ -56,6 +56,12 @@ body {
 #primary img,
 #secondary img {
     max-width: 200px;
+    max-height: 130px;
+}
+
+.tool,
+.consumable {
+    max-width: 100px;
 }
 
 .buttons {
@@ -138,4 +144,17 @@ button:active,
         opacity: 1;
         transform: rotate(-15deg) scale(1);
     }
+}
+a:link, a:visited {
+    border-radius: 2px;
+    padding: 2px;
+    background-color: #b50505;
+    color: #ffffff;
+    font-family: Georgia;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: red;
 }

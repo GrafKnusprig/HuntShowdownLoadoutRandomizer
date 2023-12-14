@@ -1,11 +1,25 @@
 # HuntShowdownLoadoutRandomizer
-<img src="images/banner/hunt-showdown-loadout-randomizer.webp" height="150"/>
 
-<img src="images/icons/new.png" height="28"/>**Try it out online:**
+<a href="https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html"><img src="images/banner/hunt-showdown-loadout-randomizer.webp" height="150"/></a>
+
+<img src="images/icons/new.png"  height="28"/>**Try it out online:**
 
 https://grafknusprig.github.io/HuntShowdownLoadoutRandomizer/Randomizer.html
 
+>If you like **HuntShowdownLoadoutRandomizer**, you can [**buy me a coffee**](https://www.paypal.com/paypalme/PhilippRaven). ❤️❤️❤️
+
 <ins><b>Don't forget to clear your browser cache after updating! (Ctrl + F5) 🙂</b></ins>
+
+### v1.6 Update to Hunt 1.15
+*2023/12/14*
+- Added all new weapons from Hunt update 1.15 and all updates since the last randomizer update
+- For more details see: https://updatecrazy.com/tag/hunt-showdown-patch-notes/ (not up to date yet)
+
+#### Todo:
+
+- Fixing unlock chain for all new items (book of weapons is not updated yet)
+- Fixing price tags for all new items (did not have time yet)
+
 
 ### v1.5.6 Update to Hunt 1.10
 *2022/10/22*
